@@ -13,8 +13,7 @@
     ],
     "no-unused-vars": "off",
     "class-methods-use-this": "off",
-    "no-console": "off",
-    "no-plusplus": "off"
+    "no-console": "off"
   },
   "parser": "babel-eslint"
 }
