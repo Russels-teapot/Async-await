@@ -1,12 +1,12 @@
 export default class GameSaving {
-  constructor() {
-    this.id = 0;
-    this.created = 'timestamp';
+  constructor(result) {
+    this.id = result.id;
+    this.created = result.created;
     this.userinfo = {
-      id: 0,
-      name: 'string',
-      level: 0,
-      points: 0,
+      id: result.id,
+      name: result.name,
+      level: result.level,
+      points: result.points,
     };
   }
 }
